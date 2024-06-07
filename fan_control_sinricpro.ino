@@ -8,11 +8,11 @@
 #include "SinricPro.h"
 #include "SinricProFanUS.h"
 
-#define WIFI_SSID         "AdvanWifi"    
-#define WIFI_PASS         "bayam2121"
-#define APP_KEY           "9710fa0b-8555-495a-a26b-2756c094362a"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "2f0b08b0-6e51-4850-a3f3-75057d7189a0-c357d3d1-03f8-4d59-be7c-20fce3908952"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
-#define FAN_ID            "6662ab2f5d818a66fab5ab88"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define WIFI_SSID         "SSID-WIF"    
+#define WIFI_PASS         "PASSWORD-WIFI"
+#define APP_KEY           "APP-KEY-SINRIC-PRO"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "APP-SECRET-SINRIC-PRO"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define FAN_ID            "ID-DARI-KIPAS-DEVICE-SINRIC-PRO"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
 #define BAUD_RATE         115200                // Change baudrate to your need
 
 const int buttonPin[] = {D2, D1, D4, D3}; // Pin untuk push buttons
